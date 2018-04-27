@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="greet_button_default_radius">2dp</dimen>
+    <dimen name="base_bottom_margin">22dp</dimen>
+    <dimen name="greet_end_button_elevation">6dp</dimen>
+    <dimen name="greet_base_margin">22dp</dimen>
+    <dimen name="greet_end_button_width">125dp</dimen>
+    <dimen name="greet_button_text_size">16sp</dimen>
+
+</resources>

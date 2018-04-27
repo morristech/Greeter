@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Greeter</string>
+    <string name="greet_default_action_string">Get started</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="greet_image_cd">An image greeting</string>
+</resources>
