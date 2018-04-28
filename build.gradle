@@ -3,6 +3,7 @@
 buildscript {
     
     repositories {
+        mavenCentral()
         google()
         jcenter()
     }
@@ -14,14 +15,38 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+
+
 }
+
+
 
 allprojects {
     repositories {
+        mavenCentral()
         google()
         jcenter()
     }
 }
+
+ext {
+    bintrayRepo = 'android' // your repo name
+    bintrayName = 'Greeter' // has to be same as your library module name
+    publishedGroupId = 'com.jrsosadev.greeter' // your module package name
+    libraryName = 'greeter'
+    artifact = 'greeter' // has to be same as your library module name
+    libraryDescription = 'Onboard your Android users in a simple and clean way. '
+    siteUrl = 'https://github.com/jrsosadev/Greeter'
+    gitUrl = 'https://github.com/jrsosadev/Greeter.git'
+    libraryVersion = '1.0'
+    developerId = 'jrsosa'
+    developerName = 'Joel Sosa'
+    developerEmail = 'joelrsosarivera@gmail.com'
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 
 task clean(type: Delete) {
     delete rootProject.buildDir
