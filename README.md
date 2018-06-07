@@ -17,7 +17,7 @@ Once you added the library you'll need to register a GreetActivity to your manif
             android:launchMode="singleTop" />  
 ```  
 
-From here you just need to create some `Greet` objects and add them to an `ArrayList<Greet>`. `Greet` objects are `Parcelable` friendly so the work ultra fast when passing around extras, which is the next thing to do.  
+From here you just need to create some `Greet` objects and add them to an `ArrayList<Greet>`. `Greet` objects are `Parcelable` friendly so they work ultra fast when passing around extras, which is the next thing to do.  
 
 ```java  
 ArrayList<Greet> greets = new ArrayList<>();
